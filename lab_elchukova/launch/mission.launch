@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="lab_elchukova" type="mission" name="mission" output="screen">
+        <rosparam command="load" file="$(find lab_elchukova)/config/points.yaml" />
+    </node>
+</launch>
